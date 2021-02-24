@@ -69,12 +69,20 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 25%;
+  border: 12px double rgb(95,207,128);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+
+.experience-image, 
+.psychology-image,
+.gardening-image {
+  margin-top: 25px;
+  width: auto;
+  height: 150px;
 }
 .tag {
   background-color: #efefef;
@@ -110,14 +118,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(62,71,79) ;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(95,207,128);
 }
 
 footer {
